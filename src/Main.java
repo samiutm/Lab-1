@@ -1,7 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
-        FizzBuzz.main(5);
+        List<Integer> list = new ArrayList<Integer>();
+
+        list.add(1001);
+        list.add(4);
+        list.add(6);
+
+        for (Integer integer : list) {
+            Multiples.main(integer);
+        }
+
     }
 
 }

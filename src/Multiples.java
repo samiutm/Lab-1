@@ -1,7 +1,7 @@
 public class Multiples{
 
-    public static void main() {
-    multiple(1001);
+    public static void main(int args) {
+        multiple(args);
     }
 
     private static void multiple(int n) {
